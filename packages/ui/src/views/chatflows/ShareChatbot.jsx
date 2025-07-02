@@ -464,13 +464,13 @@ const ShareChatbot = ({ isSessionMemory, isAgentCanvas }) => {
                 <Stack sx={{ mt: 1, mb: 2, alignItems: 'center' }} direction='row' spacing={2}>
                     <Typography variant='h4'>Title Settings</Typography>
                 </Stack>
-                {textField(title, 'title', 'Title', 'string', 'Flowise Assistant')}
+                {textField(title, 'title', 'Title', 'string', 'AgenticPlaza Assistant')}
                 {textField(
                     titleAvatarSrc,
                     'titleAvatarSrc',
                     'Title Avatar Link',
                     'string',
-                    `https://raw.githubusercontent.com/FlowiseAI/Flowise/main/assets/FloWiseAI_dark.png`
+                    `https://raw.githubusercontent.com/AgenticPlaza/TechnoPlay/main/assets/Cryptoplaza_dark.png`
                 )}
                 {colorField(titleBackgroundColor, 'titleBackgroundColor', 'Title Background Color')}
                 {colorField(titleTextColor, 'titleTextColor', 'Title TextColor')}
