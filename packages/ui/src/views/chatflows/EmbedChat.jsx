@@ -64,7 +64,7 @@ const App = () => {
 const embedFullpageHtmlCode = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -109,7 +109,7 @@ export const defaultThemeConfig = {
     },
     disclaimer: {
         title: 'Disclaimer',
-        message: 'By using this chatbot, you agree to the <a target="_blank" href="https://flowiseai.com/terms">Terms & Condition</a>',
+        message: 'By using this chatbot, you agree to the <a target="_blank" href="https://technoplay.io">Terms & Condition</a>',
         textColor: 'black',
         buttonColor: '#3b82f6',
         buttonText: 'Start Chatting',
@@ -193,8 +193,7 @@ const customStringify = (obj) => {
 
 const embedPopupHtmlCodeCustomization = (chatflowid) => {
     return `<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
         chatflowConfig: {
@@ -246,7 +245,7 @@ const getFullPageThemeConfig = () => {
 const embedFullpageHtmlCodeCustomization = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -351,11 +350,11 @@ const EmbedChat = ({ chatflowid }) => {
                                     <a
                                         rel='noreferrer'
                                         target='_blank'
-                                        href='https://www.npmjs.com/package/flowise-embed?activeTab=versions'
+                                        href='https://www.npmjs.com/package/ai-plaza-embed@1.0.0 activeTab=versions'
                                     >
                                         version
                                     </a>
-                                    :&nbsp;<code>{`https://cdn.jsdelivr.net/npm/flowise-embed@<version>/dist/web.js`}</code>
+                                    :&nbsp;<code>{`https://cdn.jsdelivr.net/npm/ai-plaza-embed@<version>/dist/web.js`}</code>
                                 </p>
                             </span>
                             <div style={{ height: 10 }}></div>
