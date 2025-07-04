@@ -39,6 +39,7 @@
         "ai-plaza-embed": "latest",
         "flowise-embed-react": "latest",
         "formik": "^2.2.6",
+        "flowise-react-json-view": "latest",
         "framer-motion": "^4.1.13",
         "history": "^5.0.0",
         "html-react-parser": "^3.0.4",
