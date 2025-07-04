@@ -40,7 +40,7 @@ function a11yProps(index) {
 
 const embedPopupHtmlCode = (chatflowid) => {
     return `<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed/dist/web.js"
     Chatbot.init({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -64,7 +64,7 @@ const App = () => {
 const embedFullpageHtmlCode = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed/dist/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -193,7 +193,7 @@ const customStringify = (obj) => {
 
 const embedPopupHtmlCodeCustomization = (chatflowid) => {
     return `<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed/dist/web.js
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
         chatflowConfig: {
@@ -245,7 +245,7 @@ const getFullPageThemeConfig = () => {
 const embedFullpageHtmlCodeCustomization = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed@1.0.0/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/ai-plaza-embed/dist/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
@@ -350,7 +350,7 @@ const EmbedChat = ({ chatflowid }) => {
                                     <a
                                         rel='noreferrer'
                                         target='_blank'
-                                        href='https://www.npmjs.com/package/ai-plaza-embed@1.0.0 activeTab=versions'
+                                        href='https://www.npmjs.com/package/ai-plaza-embed activeTab=versions'
                                     >
                                         version
                                     </a>
