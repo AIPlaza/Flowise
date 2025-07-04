@@ -51,7 +51,7 @@ const embedPopupHtmlCode = (chatflowid) => {
 const embedPopupReactCode = (chatflowid) => {
     return `import { BubbleChat } from 'ai-embed-react'
 
-const App = () => {
+const App = () => { 
     return (
         <BubbleChat
             chatflowid="${chatflowid}"
@@ -75,7 +75,7 @@ const embedFullpageHtmlCode = (chatflowid) => {
 const embedFullpageReactCode = (chatflowid) => {
     return `import { FullPageChat } from "ai-embed-react"
 
-const App = () => {
+const App = () => { 
     return (
         <FullPageChat
             chatflowid="${chatflowid}"
